@@ -14,13 +14,13 @@ python = "^3.11,<3.12"
 fastapi = "^0.109.1"
 python-dotenv = "^1.0.0"
 aiostream = "^0.5.2"
-llama-index = "0.10.55"
-llama-index-core = "0.10.55"
+llama-index = "0.11.17"
+llama-index-core = "0.11.17"
 cachetools = "^5.3.3"
 azure-identity = "^1.16.1"
 tenacity = "8.3.0"
-llama-index-llms-azure-openai = "^0.1.8"
-llama-index-embeddings-azure-openai = "^0.1.10"
+llama-index-llms-azure-openai = "0.2.2"
+llama-index-embeddings-azure-openai = "0.2.5"
 
 [tool.poetry.dependencies.uvicorn]
 extras = [ "standard" ]
@@ -30,7 +30,7 @@ version = "^0.23.2"
 version = "^0.8"
 
 [tool.poetry.dependencies.llama-index-agent-openai]
-version = "0.2.6"
+version = "0.3.4"
 
 [tool.poetry.dependencies.traceloop-sdk]
 version = "^0.15.11"
