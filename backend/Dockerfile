@@ -16,6 +16,7 @@ RUN apt update && apt install -y chromium chromium-driver
 
 # Install dependencies
 COPY ./pyproject.toml ./poetry.lock* /app/
+RUN poetry lock --no-update
 RUN poetry install --no-root --no-cache --only main
 
 # ====================================
