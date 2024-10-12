@@ -73,7 +73,7 @@ This template uses `gpt-35-turbo` version `1106`  which may not be available in 
 You can run this template virtually by using GitHub Codespaces. The button will open a web-based VS Code instance in your browser:
 
 1. Open the template (this may take several minutes)
-    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/llama-index-python?hide_repo_select=true&ref&quickstart=true)
+    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Dave-WestNeu/llama-index-python?hide_repo_select=true&ref&quickstart=true)
 2. Open a terminal window
 3. Sign into your Azure account:
 
